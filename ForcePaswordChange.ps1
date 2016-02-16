@@ -1,8 +1,8 @@
 ﻿## ========================== Settings ====================================
 
 [System.String] $ou = "OU=Department,DC=contoso,DC=com";
-[System.DateTime] $pwdlastChanged = (Get-Date).AddYears(-5);
-##                                                     ^^^^^
+[System.DateTime] $pwdlastChanged = (Get-Date).AddYears(-5).AddMonths(0).AddDays(0);
+##                                                     ^^^^^         ^^^^       ^^^^
 ## ======================== END Settings ==================================
 
 ## ========================== LICENSE =====================================
